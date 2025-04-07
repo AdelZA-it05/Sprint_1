@@ -13,7 +13,7 @@ for world_champion in world_champions.items():
 
 country = 'Италия'
 
-if world_champions.get(country) == None:
+if country not in world_champions.values():
     print('Италия не выигрывала чемпионат мира по футболу в 21 веке.')
 else:
     print('Италия cтановилась чемпионом мира по футболу в 21 веке!')
